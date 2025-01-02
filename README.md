@@ -1,4 +1,4 @@
-# BookBrowse v1
+# Book Search App(BookBrowse-v1)
 
 A simple book search application built with React, Vite, Material-UI (MUI), React Query, and utilizing the Google Books API for data fetching.
 
@@ -59,9 +59,11 @@ src/
 ├── components/        # Reusable UI components
 ├── pages/             # Contains page components for routing
 ├── routes/            # Routes for the application
+│   └── router.js      # Defines routes for the application
 ├── services/          # API service for data fetching (e.g., Google Books API)
 ├── theme/             # Custom theme configuration for MUI
-└── App.js             # Main entry point of the application
+├── App.jsx            # Main component with layout and routing
+└── main.jsx           # Main entry point for the React application
 ```
 
 ## Environment Variables
@@ -82,9 +84,14 @@ The following environment variable is required to use the Google Books API:
    - Toast notifications are used to inform users of the app’s status (e.g., book search success or error).
 
 3. **Styling**:
+
    - MUI is used for UI components like buttons, grids, and text fields.
    - Custom themes can be modified in `src/theme/`.
 
-Feel free to explore the app and customize it further!
+4. **Main Entry**:
 
----
+   - The app is bootstrapped in `main.jsx`, which includes the `QueryClientProvider` for React Query, `ThemeProvider` for MUI, `RouterProvider` for routing, and `ToastContainer` for notifications.
+   - The `App.jsx` component contains the layout, including the `Outlet` for nested routes and `CssBaseline` for consistent styling across browsers.
+
+5. **Routing**:
+   - The routing logic is defined in `src/routes/router.js`, which connects the routes to the respective components.
