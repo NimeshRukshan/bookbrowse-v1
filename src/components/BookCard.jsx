@@ -2,7 +2,7 @@ import { Card, CardContent, Typography, Box, useTheme } from "@mui/material";
 import { Link } from "react-router-dom";
 import BookmarkBorderIcon from "@mui/icons-material/BookmarkBorder";
 import defaultImage from "../assets/cover_not_found.jpg";
-
+import { toast } from "react-toastify";
 const BookCard = ({ book }) => {
   const theme = useTheme();
   const { id, volumeInfo } = book;
@@ -12,6 +12,10 @@ const BookCard = ({ book }) => {
     description = "No description available.",
     imageLinks,
   } = volumeInfo;
+
+  const handleSaveClick = () => {
+    toast.info("This feature is coming soon...");
+  };
 
   return (
     <Card
@@ -86,6 +90,7 @@ const BookCard = ({ book }) => {
             cursor: "pointer",
             color: theme.palette.text.secondary,
           }}
+          onClick={handleSaveClick}
         />
         <Link to={`/book/${id}`} style={{ textDecoration: "none" }}>
           <Typography

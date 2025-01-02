@@ -21,6 +21,7 @@ const sortOptions = [
   { value: "relevance", label: "Relevance" },
   { value: "newest", label: "Newest" },
 ];
+const categories = ["Technology", "Recipe", "History", "Memoirs", "Skills"];
 
 const Home = () => {
   const theme = useTheme();
@@ -80,13 +81,7 @@ const Home = () => {
             </Select>
           </FormControl>
           <CategoryList
-            categories={[
-              "Technology",
-              "Recipe",
-              "History",
-              "Memoirs",
-              "Skills",
-            ]}
+            categories={categories}
             onCategoryClick={handleCategoryClick}
             activeCategory={category}
           />

@@ -31,7 +31,12 @@ const HeroSection = ({ onSearch }) => {
         sx={{
           fontWeight: theme.typography.fontWeightBold,
           marginBottom: theme.spacing(2),
-          color: theme.palette.primary.main,
+          sx: {
+            color: theme.palette.primary.main,
+          },
+          md: {
+            color: theme.palette.secondary.main,
+          },
         }}
       >
         Find Your Book of Choice.
@@ -40,7 +45,7 @@ const HeroSection = ({ onSearch }) => {
         variant="body1"
         sx={{
           marginBottom: theme.spacing(3),
-          color: theme.palette.text.primary,
+          color: theme.palette.text.secondary,
         }}
       >
         Discover your next favorite read with us.
