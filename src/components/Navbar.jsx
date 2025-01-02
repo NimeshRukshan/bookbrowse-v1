@@ -41,7 +41,6 @@ const Navbar = () => {
         >
           BookBrowse
         </Typography>
-
         <Box sx={{ display: { xs: "none", sm: "flex" }, gap: 3 }}>
           <Typography
             component={Link}
@@ -76,7 +75,6 @@ const Navbar = () => {
             About
           </Typography>
         </Box>
-
         <IconButton
           onClick={toggleDrawer(true)}
           sx={{ display: { sm: "none" } }}
@@ -87,9 +85,7 @@ const Navbar = () => {
           anchor="right"
           open={drawerOpen}
           onClose={toggleDrawer(false)}
-          PaperProps={{
-            sx: { backgroundColor: "background.paper" },
-          }}
+          PaperProps={{ sx: { backgroundColor: "background.paper" } }}
         >
           <Box sx={{ width: 250 }}>
             <IconButton
