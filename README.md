@@ -57,7 +57,10 @@ To get started with this project, follow these steps:
 src/
 ├── assets/            # Static assets such as images, icons, etc.
 ├── components/        # Reusable UI components
-├── pages/             # Contains page components for routing
+├── pages/
+│   ├── Home.jsx       # Homepage component
+│   ├── About.jsx      # About page component
+│   └── BookDetails.jsx # Component displaying book details
 ├── routes/            # Routes for the application
 │   └── router.js      # Defines routes for the application
 ├── services/          # API service for data fetching (e.g., Google Books API)
