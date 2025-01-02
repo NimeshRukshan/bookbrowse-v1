@@ -1,5 +1,15 @@
+import { Outlet } from "react-router-dom";
+import { CssBaseline, Container } from "@mui/material";
+
 const App = () => {
-  return <></>;
+  return (
+    <>
+      <CssBaseline />
+      <Container>
+        <Outlet />
+      </Container>
+    </>
+  );
 };
 
 export default App;

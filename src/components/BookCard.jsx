@@ -24,7 +24,7 @@ const BookCard = ({ book }) => {
         "&:hover": {
           boxShadow: theme.shadows[3],
         },
-        borderRadius: theme.shape.borderRadius,
+
         border: `1px solid ${theme.palette.divider}`,
       }}
     >
