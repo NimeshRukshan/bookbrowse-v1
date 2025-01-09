@@ -1,14 +1,72 @@
-# Book Search App(BookBrowse-v1)
+# Book Search App (BookBrowse-v1)
 
 A simple book search application built with React, Vite, Material-UI (MUI), React Query, and utilizing the Google Books API for data fetching.
 
+---
+
 ## Table of Contents
 
+- [Introduction](#book-search-app-bookbrowse-v1)
+- [Table of Contents](#table-of-contents)
+- [Desktop Views](#desktop-views)
+- [Mobile Views](#mobile-views)
 - [Technologies Used](#technologies-used)
 - [Project Setup](#project-setup)
 - [File Structure](#file-structure)
 - [Environment Variables](#environment-variables)
 - [Usage](#usage)
+
+---
+
+## Desktop Views
+
+Here are screenshots of the desktop version of the application:
+
+### Home Page
+
+<p align="center">
+  <img src="screenshots/desktop-home_1.png" alt="Desktop Home Page 1" width="45%"/>
+  <img src="screenshots/desktop-home_2.png" alt="Desktop Home Page 2" width="45%"/>
+</p>
+
+### About-me Page
+
+<p align="center">
+  <img src="screenshots/desktop-about-page.png" alt="Desktop About Page" width="90%"/>
+</p>
+
+### Book Details
+
+<p align="center">
+  <img src="screenshots/desktop-details.png" alt="Desktop Book Details" width="90%"/>
+</p>
+
+---
+
+## Mobile Views
+
+Here are screenshots of the mobile version of the application:
+
+### Home Page
+
+<p align="center">
+  <img src="screenshots/mobile-home_1.png" alt="Mobile Home Page 1" width="45%"/>
+  <img src="screenshots/mobile-home_2.png" alt="Mobile Home Page 2" width="45%"/>
+</p>
+
+### About-me Page
+
+<p align="center">
+  <img src="screenshots/mobile-about-page.png" alt="Mobile About Page" width="90%"/>
+</p>
+
+### Book Details
+
+<p align="center">
+  <img src="screenshots/mobile-details.png" alt="Mobile Book Details" width="90%"/>
+</p>
+
+---
 
 ## Technologies Used
 
@@ -20,6 +78,8 @@ A simple book search application built with React, Vite, Material-UI (MUI), Reac
 - **Toast** - For showing notifications and toasts.
 - **.env** - For managing environment variables.
 
+---
+
 ## Project Setup
 
 To get started with this project, follow these steps:
@@ -28,7 +88,7 @@ To get started with this project, follow these steps:
 
    ```bash
    git clone https://github.com/NimeshRukshan/bookbrowse-v1.git
-   cd book-search-app
+   cd bookbrowse-v1
    ```
 
 2. Install the dependencies:
@@ -37,7 +97,7 @@ To get started with this project, follow these steps:
    npm install
    ```
 
-3. Create a `.env` file in the root of the project and add the following environment variables:
+3. Create a `.env` file in the root of the project and add the following environment variable:
 
    ```env
    REACT_APP_GOOGLE_BOOKS_API_KEY=your_google_books_api_key_here
@@ -50,6 +110,8 @@ To get started with this project, follow these steps:
    ```
 
 5. Open your browser and visit `http://localhost:3000` to view the app.
+
+---
 
 ## File Structure
 
@@ -69,11 +131,15 @@ src/
 └── main.jsx           # Main entry point for the React application
 ```
 
+---
+
 ## Environment Variables
 
 The following environment variable is required to use the Google Books API:
 
 - **REACT_APP_GOOGLE_BOOKS_API_KEY**: Your API key for accessing the Google Books API. You can get your API key from [Google Cloud Console](https://console.developers.google.com/).
+
+---
 
 ## Usage
 
@@ -98,3 +164,9 @@ The following environment variable is required to use the Google Books API:
 
 5. **Routing**:
    - The routing logic is defined in `src/routes/router.js`, which connects the routes to the respective components.
+
+```
+
+---
+
+```
