@@ -130,6 +130,7 @@ const About = () => {
             fontWeight: theme.typography.fontWeightBold,
             marginBottom: theme.spacing(1),
             color: theme.palette.primary.main,
+            cursor: "pointer",
           }}
           gutterBottom
           color="secondary"
