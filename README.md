@@ -25,20 +25,20 @@ Here are screenshots of the desktop version of the application:
 ### Home Page
 
 <p align="center">
-  <img src="screenshots/desktop-home.jpg" alt="Desktop Home Page 1" width="45%" height="300px"/>
-  <img src="screenshots/desktop-home_2.jpg" alt="Desktop Home Page 2" width="45%" height="300px"/>
+  <img src="screenshots/desktop-home.jpg" alt="Desktop Home Page 1" width="800px" height="400px"/>
+  <img src="screenshots/desktop-home_2.jpg" alt="Desktop Home Page 2" width="800px" height="400px"/>
 </p>
 
 ### About-me Page
 
 <p align="center">
-  <img src="screenshots/desktop-about-page.jpg" alt="Desktop About Page" width="45%" height="300px"/>
+  <img src="screenshots/desktop-about-page.jpg" alt="Desktop About Page" width="800px" height="400px"/>
 </p>
 
 ### Book Details
 
 <p align="center">
-  <img src="screenshots/desktop-book-details.jpg" alt="Desktop Book Details" width="45%" height="300px"/>
+  <img src="screenshots/desktop-book-details.jpg" alt="Desktop Book Details" width="800px" height="400px"/>
 </p>
 
 ---
@@ -50,21 +50,23 @@ Here are screenshots of the mobile version of the application:
 ### Home Page
 
 <p align="center">
-  <img src="screenshots/mobile-home_1.jpg" alt="Mobile Home Page 1" width="45%" height="300px"/>
-  <img src="screenshots/mobile-home_2.jpg" alt="Mobile Home Page 2" width="45%" height="300px"/>
+  <img src="screenshots/mobile-home_1.jpg" alt="Mobile Home Page 1" width="400px" height="600px"/>
+  <img src="screenshots/mobile-home_2.jpg" alt="Mobile Home Page 2" width="400px" height="600px"/>
 </p>
 
 ### About-me Page
 
 <p align="center">
-  <img src="screenshots/mobile-about-page.jpg" alt="Mobile About Page" width="45%" height="300px"/>
+  <img src="screenshots/mobile-about-page.jpg" alt="Mobile About Page" width="400px" height="600px"/>
 </p>
 
 ### Book Details
 
 <p align="center">
-  <img src="screenshots/mobile-book-details.jpg" alt="Mobile Book Details" width="45%" height="300px"/>
+  <img src="screenshots/mobile-book-details.jpg" alt="Mobile Book Details" width="400px" height="600px"/>
 </p>
+
+---
 
 ## Technologies Used
 
