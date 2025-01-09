@@ -50,7 +50,7 @@ Here are screenshots of the mobile version of the application:
 ### Home Page
 
 <p align="center">
-  <img src="screenshots/mobile-home_1.jpg" alt="Mobile Home Page 1" width="45%"/>
+  <img src="screenshots/mobile-home_1.jpg" alt="Mobile Home Page 1" height=5% width="45%"/>
   <img src="screenshots/mobile-home_2.jpg" alt="Mobile Home Page 2" width="45%"/>
 </p>
 
